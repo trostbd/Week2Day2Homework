@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Week2Day2Homework</string>
+    <string name="name">Name</string>
+    <string name="major">Major</string>
+    <string name="minor">Minor</string>
+    <string name="gpa">GPA</string>
+    <string name="dob">DOB</string>
+    <string name="city">Home City</string>
+    <string name="state">Home State</string>
+    <string name="ssn">SSN</string>
+    <string name="input">Input Student Information</string>
+    <string name="ssn_hint">Input SSN</string>
+    <string name="name_hint">Input Name</string>
+    <string name="major_hint">Input Major</string>
+    <string name="minor_hint">Input Minor</string>
+    <string name="gpa_hint">Input GPA</string>
+    <string name="dob_hint">Input DOB</string>
+    <string name="city_hint">Input Home City</string>
+    <string name="state_hint">Input Home State</string>
+    <string name="select">Select Student</string>
+    <string name="insert">Insert Student</string>
+    <string name="update">Update Student</string>
+    <string name="delete">Delete Student</string>
+    <string name="hs_fill">Homestuck fill</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInput">
+
+    <EditText
+        android:id="@+id/etSsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ssn_hint"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"/>
+
+    <EditText
+        android:id="@+id/etMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/major_hint"/>
+
+    <EditText
+        android:id="@+id/etMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/minor_hint"/>
+
+    <EditText
+        android:id="@+id/etGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/gpa_hint"/>
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dob_hint"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city_hint"/>
+
+    <EditText
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/state_hint"/>
+
+    <Button
+        android:id="@+id/btSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:onClick="onClick"/>
+
+</LinearLayout>
